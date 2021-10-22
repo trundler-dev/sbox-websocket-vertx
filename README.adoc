@@ -1,0 +1,15 @@
+= Vertx-example
+
+== Building
+
+To package your application:
+```
+mvnw clean package
+```
+
+To run the application without Docker:
+```
+mvnw clean compile exec:java
+```
+
+
